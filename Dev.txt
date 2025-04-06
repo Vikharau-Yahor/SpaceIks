@@ -1,3 +1,13 @@
 --Basic Vite server setup--
 
 1) https://vite.dev/guide/
+2) Install Vite. Powershell: npm install -D vite
+3) Add root page: index.html (+ fill with basic page content)
+4) Fill package.json with base vite scripts:
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+5) Run Vite server: npm run dev. And observe index.html
+6) Add test script src/js/test.js
