@@ -11,3 +11,15 @@
   }
 5) Run Vite server: npm run dev. And observe index.html
 6) Add test script src/js/test.js
+
+-- Add React --
+1) install modules: 'react' 'react-dom'
+2) install Vite React plugin: npm install -D @vitejs/plugin-react
+3) Add config file: vite.config.js
+3.1) add react plugin to Vite config:
+    import { defineConfig } from 'vite';
+    import plugin from '@vitejs/plugin-react';
+
+    export default defineConfig({
+        plugins: [plugin()]
+    })
