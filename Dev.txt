@@ -23,3 +23,7 @@
     export default defineConfig({
         plugins: [plugin()]
     })
+
+-- TSX support --
+1) install react types: npm i @types/react @types/react-dom
+2) add tsx react components + include main.tsx in index.html
